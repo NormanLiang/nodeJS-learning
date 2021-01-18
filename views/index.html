@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Demo: Get Started Debugging JavaScript with Chrome DevTools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      h1 {
+        font-size: 1.5em
+      }
+      input, button {
+        min-width: 72px;
+        min-height: 36px;
+        border: 1px solid grey;
+      }
+      label, input, button {
+        display: block;
+      }
+      input {
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+
+      <h1>Demo: put the command here</h1>
+      <label for="num1">initial pos X</label>
+      <input placeholder="Number 1" id="num1">
+      <label for="num2">initial pos Y</label>
+      <input placeholder="Number 2" id="num2">
+      <label for="direction">Choose a direction:</label>
+      <select name="directions" id="direction">
+        <option value="NORTH">North</option>
+        <option value="SOUTH">South</option>
+        <option value="EAST">East</option>
+        <option value="WEST">West</option>
+      </select>
+    
+      <p></p>
+      <p></p>
+      <button id="place">place</button>
+      <button id="move">Move</button>
+      <button id="left">Left</button>
+      <button id="right">Right</button>
+      <button id="report">Report</button>
+
+      <label>Command: </label>
+
+      <form action="" method="POST">
+        <textarea id="command" type="text" readonly="readonly" name="cmd"></textarea>
+        <button type="submit" id="send">Send</button>
+      </form>
+
+      <p></p>
+
+      
+
+  </body>
+
+  <script type="text/javascript" src='view.js'></script>
+
+
+</html>

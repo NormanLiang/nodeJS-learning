@@ -1,0 +1,16 @@
+{
+    "name": "Toy_Simulator",
+    "version": "0.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "dependencies": {
+        "body-parser": "~1.17.1",
+        "express": "~4.16.1"
+    },
+    "devDependencies": {
+        "mocha": "^8.2.1"
+    }
+}
