@@ -4,12 +4,13 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js",
-      "test": "mocha"
+        "start": "node app.js",
+        "test": "mocha"
     },
     "dependencies": {
         "body-parser": "~1.17.1",
-        "express": "~4.16.1"
+        "express": "~4.16.1",
+        "hbs": "~4.1.1"
     },
     "devDependencies": {
         "mocha": "^8.2.1"
