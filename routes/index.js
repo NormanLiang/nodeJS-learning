@@ -56,7 +56,7 @@ router.post('/', function(req, res, next) {
             } else {
                 res.send({'POS X': pos_x, 'POS Y': pos_y, 'FACING': facing});
             }  
-            robot.setTracing('');          
+            robot.robotResetTrace();          
             break;
 
         case RETURN_STATE.RETURN_OK:
@@ -82,12 +82,12 @@ router.post('/', function(req, res, next) {
                 }
                 
             }
-            robot.setTracing('');
+            robot.robotResetTrace();
             break;
 
         case RETURN_STATE.RETURN_ERROR:
             res.send({'CMD':req.body.cmd, 'RES': 'ERROR'});
-            robot.setTracing('');
+            robot.robotResetTrace();
             break;
 
         default:

@@ -22,6 +22,6 @@ app.use(express.static(__dirname + '/views'));
 
 app.listen(8081);
 
-console.log('server running at http://127.0.0.1:8081');
+console.log('server is running, please visit http://127.0.0.1:8081 to test');
 logger.log('server running at http://127.0.0.1:8081');
 

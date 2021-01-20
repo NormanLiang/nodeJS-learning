@@ -178,7 +178,7 @@ describe('#robot.js', ()=> {
         });
 
         it ('MOVE test when the robot is off table', ()=>{
-            robot.reset();
+            robot.robotReset();
 
             for (i=0; i<test_cases_move.length; i++) {
                 ret = robot.act(test_cases_move[i]);
@@ -198,7 +198,7 @@ describe('#robot.js', ()=> {
         });
 
         it('move test when the robot is on table', ()=>{
-            robot.reset();
+            robot.robotReset();
             for (var key in test_cases_move_positon) {
                 // console.log('key is ', key);
                 // console.log('Value is', test_cases_move_positon[key]);
@@ -228,7 +228,7 @@ describe('#robot.js', ()=> {
         });
 
         it ('left test off table', ()=>{
-            robot.reset();
+            robot.robotReset();
 
             for (i=0; i<test_cases_rotate_left.length; i++) 
             {
@@ -251,7 +251,7 @@ describe('#robot.js', ()=> {
         it('left test on table', ()=>{
             for (var key in test_cases_rotate_left_positon) {
                 // console.log(key);
-                robot.reset();
+                robot.robotReset();
                 robot.act(key);
                 for (i=0; i<test_cases_rotate_left.length; i++) {
                     ret = robot.act(test_cases_rotate_left[i]);
@@ -278,7 +278,7 @@ describe('#robot.js', ()=> {
         }); 
 
         it ('right test off table', ()=>{
-            robot.reset();
+            robot.robotReset();
             for (i=0; i<test_cases_rotate_right.length; i++) 
             {
                 ret = robot.act(test_cases_rotate_right[i]);
@@ -296,7 +296,7 @@ describe('#robot.js', ()=> {
         it ('right test on table', ()=>{
             
             for (var key in test_cases_rotate_right_positon) {
-                robot.reset();
+                robot.robotReset();
                 robot.act(key);
                 for (i=0; i<test_cases_rotate_right.length; i++) {
                     ret = robot.act(test_cases_rotate_right[i]);
@@ -322,7 +322,7 @@ describe('#robot.js', ()=> {
         });
 
         it ('report test on table', ()=>{
-            robot.reset();
+            robot.robotReset();
             for (i=0; i<test_cases_report.length; i++) 
             {
                 ret = robot.act(test_cases_report[i]);
@@ -339,7 +339,7 @@ describe('#robot.js', ()=> {
 
         it ('report test on table', ()=>{
             for (var key in test_cases_report_positon) {
-                robot.reset();
+                robot.robotReset();
                 robot.act(key);
                 for (i=0; i<test_cases_report.length; i++) {
                     ret = robot.act(test_cases_report[i]);

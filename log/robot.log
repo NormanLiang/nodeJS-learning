@@ -8024,3 +8024,26 @@ server running at http://127.0.0.1:8081
 server running at http://127.0.0.1:8081
 server running at http://127.0.0.1:8081
 server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+PLACE 0,0,NORTH 0 0 NORTH
+MOVE 0 1 NORTH
+RIGHT 0 1 EAST
+LEFT 0 1 NORTH
+MOVE 0 2 NORTH
+MOVE 0 3 NORTH
+MOVE 0 4 NORTH
+REPORT 0 4 NORTH
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
+server running at http://127.0.0.1:8081
