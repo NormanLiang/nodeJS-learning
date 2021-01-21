@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<testcases>
+    <group>
+        <s>RESET</s>
+    </group>
+    
+    <group>
+        <s>MOVE</s>
+        <s>MOVE</s>
+        <s>LEFT</s>
+        <s>MOVE</s>
+        <s>LEFT</s>
+        <s>MOVE</s>
+        <s>MOVE</s>    
+        <s>PLACE 3,2,NORTH</s>
+        <s>MOVE</s>
+        <s>MAVE</s>
+        <s>LEFT</s>
+        <s>MOVE</s>
+        <s>LEFT</s>
+        <s>MOVE</s>
+        <s>MOVE</s>
+        <s>RIGHT</s>
+        <s>RIGHT</s>
+        <s>RIGHT</s>
+        <s>MOVE</s>
+        <s>REPORT</s>        
+    </group>
+
+    <group>
+        <s>MOVE</s>
+        <s>MOVE</s>
+        <s>LEFT</s>
+        <s>MOVE</s>
+        <s>PLACE 3,2,NORTH</s>
+        <s>LEFT</s>
+        <s>MOVE</s>
+        <s>MOVE</s>
+        <s>PLACE 1,2,SOUTH</s>
+        <s>RIGHT</s>
+        <s>RIGHT</s>
+        <s>RIGHT</s>
+        <s>MOVE</s>
+        <s>REPORT</s>        
+    </group>  
+
+</testcases>
+
+

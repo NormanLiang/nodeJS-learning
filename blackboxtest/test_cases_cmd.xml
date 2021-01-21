@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<testcases>
+    <group>
+        <s>RESET</s>
+    </group>
+    
+    <group>
+        <s>PLECE</s>
+        <s>PLACE</s>
+        <s>PLACE </s>
+        <s>PLACE 0,0,</s>
+        <s>PLACE 0 0 NORTH</s>          
+    </group>
+
+    <group>
+        <s>MOVE</s>
+    </group>
+
+    <!-- before the robot is on table, valid and invalid command should be tested -->
+    <group>
+        <s>PLACE 3,2,NORTH</s>
+    </group>
+
+    
+
+    <group>
+        <s>MOV</s>
+        <s>MSVE</s>
+        <s>M</s>
+    </group>
+
+    <group>
+        <s>MOVE</s>
+    </group>  
+
+    <group>
+        <s>LEF</s>
+        <s>LAFT</s>
+    </group>
+
+    <group>
+        <s>LEFT</s>
+    </group>   
+     
+    <group>
+        <s>LEF</s>
+        <s>LAFT</s>
+    </group>    
+
+</testcases>
+
+

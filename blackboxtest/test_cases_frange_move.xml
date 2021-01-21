@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<testcases>
+    <group>
+        <s>RESET</s>
+    </group>
+    
+    <group>
+        <s>PLACE 0,0,WEST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 0,1,WEST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>  
+
+    <group>
+        <s>PLACE 0,2,WEST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 0,3,WEST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 0,4,WEST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 0,0,SOUTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 1,0,SOUTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 2,0,SOUTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 3,0,SOUTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 4,0,SOUTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 4,0,EAST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 4,1,EAST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 4,2,EAST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 4,3,EAST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 4,4,EAST</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 4,4,NORTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 3,4,NORTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 2,4,NORTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 1,4,NORTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>PLACE 0,4,NORTH</s>
+        <s>MOVE</s>
+        <s>REPORT</s>
+    </group>
+
+    <group>
+        <s>REPORT</s>
+    </group> 
+
+
+
+
+</testcases>
+
+

@@ -1,0 +1,145 @@
+start ----test_cases_cmd.xml
+group test start
+test pass on RESET
+group test end
+group test start
+test pass on PLECE
+PLACE
+PLACE
+PLACE 0,0,
+PLACE 0 0 NORTH
+group test end
+group test start
+test pass on MOVE
+group test end
+group test start
+test pass on PLACE 3,2,NORTH$$3,2,NORTH
+group test end
+group test start
+test pass on MOV
+MSVE
+M
+group test end
+group test start
+test pass on MOVE$$3,3,NORTH
+group test end
+group test start
+test pass on LEF
+LAFT
+group test end
+group test start
+test pass on LEFT$$3,3,WEST
+group test end
+group test start
+test pass on LEF
+LAFT
+group test end
+end ----test_cases_cmd.xml
+start ----test_cases_frange_move.xml
+group test start
+test pass on RESET
+group test end
+group test start
+test pass on PLACE 0,0,WEST$$0,0,WEST
+test pass on MOVE$$0,0,WEST
+test pass on REPORT$$0,0,WEST
+group test end
+group test start
+test pass on PLACE 0,1,WEST$$0,1,WEST
+test pass on MOVE$$0,1,WEST
+test pass on REPORT$$0,1,WEST
+group test end
+group test start
+test pass on PLACE 0,2,WEST$$0,2,WEST
+test pass on MOVE$$0,2,WEST
+test pass on REPORT$$0,2,WEST
+group test end
+group test start
+test pass on PLACE 0,3,WEST$$0,3,WEST
+test pass on MOVE$$0,3,WEST
+test pass on REPORT$$0,3,WEST
+group test end
+group test start
+test pass on PLACE 0,4,WEST$$0,4,WEST
+test pass on MOVE$$0,4,WEST
+test pass on REPORT$$0,4,WEST
+group test end
+group test start
+test pass on PLACE 0,0,SOUTH$$0,0,SOUTH
+test pass on MOVE$$0,0,SOUTH
+test pass on REPORT$$0,0,SOUTH
+group test end
+group test start
+test pass on PLACE 1,0,SOUTH$$1,0,SOUTH
+test pass on MOVE$$1,0,SOUTH
+test pass on REPORT$$1,0,SOUTH
+group test end
+group test start
+test pass on PLACE 2,0,SOUTH$$2,0,SOUTH
+test pass on MOVE$$2,0,SOUTH
+test pass on REPORT$$2,0,SOUTH
+group test end
+group test start
+test pass on PLACE 3,0,SOUTH$$3,0,SOUTH
+test pass on MOVE$$3,0,SOUTH
+test pass on REPORT$$3,0,SOUTH
+group test end
+group test start
+test pass on PLACE 4,0,SOUTH$$4,0,SOUTH
+test pass on MOVE$$4,0,SOUTH
+test pass on REPORT$$4,0,SOUTH
+group test end
+group test start
+test pass on PLACE 4,0,EAST$$4,0,EAST
+test pass on MOVE$$4,0,EAST
+test pass on REPORT$$4,0,EAST
+group test end
+group test start
+test pass on PLACE 4,1,EAST$$4,1,EAST
+test pass on MOVE$$4,1,EAST
+test pass on REPORT$$4,1,EAST
+group test end
+group test start
+test pass on PLACE 4,2,EAST$$4,2,EAST
+test pass on MOVE$$4,2,EAST
+test pass on REPORT$$4,2,EAST
+group test end
+group test start
+test pass on PLACE 4,3,EAST$$4,3,EAST
+test pass on MOVE$$4,3,EAST
+test pass on REPORT$$4,3,EAST
+group test end
+group test start
+test pass on PLACE 4,4,EAST$$4,4,EAST
+test pass on MOVE$$4,4,EAST
+test pass on REPORT$$4,4,EAST
+group test end
+group test start
+test pass on PLACE 4,4,NORTH$$4,4,NORTH
+test pass on MOVE$$4,4,NORTH
+test pass on REPORT$$4,4,NORTH
+group test end
+group test start
+test pass on PLACE 3,4,NORTH$$3,4,NORTH
+test pass on MOVE$$3,4,NORTH
+test pass on REPORT$$3,4,NORTH
+group test end
+group test start
+test pass on PLACE 2,4,NORTH$$2,4,NORTH
+test pass on MOVE$$2,4,NORTH
+test pass on REPORT$$2,4,NORTH
+group test end
+group test start
+test pass on PLACE 1,4,NORTH$$1,4,NORTH
+test pass on MOVE$$1,4,NORTH
+test pass on REPORT$$1,4,NORTH
+group test end
+group test start
+test pass on PLACE 0,4,NORTH$$0,4,NORTH
+test pass on MOVE$$0,4,NORTH
+test pass on REPORT$$0,4,NORTH
+group test end
+group test start
+test pass on REPORT$$0,4,NORTH
+group test end
+end ----test_cases_frange_move.xml
