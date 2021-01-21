@@ -87,10 +87,16 @@ router.post('/', function(req, res, next) {
             break;
 
         case RETURN_STATE.RETURN_ERROR:
-            if (robot.getInfo(robot.Robot_Info.ONTABLE)) {
+            if (DEF.DEBUG) {
                 res.send({'CMD':req.body.cmd, 'RES': 'ERROR'});
                 robot.robotResetTrace();
+            } else {
+                if (robot.getInfo(robot.Robot_Info.ONTABLE)) {
+                    res.send({'CMD':req.body.cmd, 'RES': 'ERROR'});
+                    robot.robotResetTrace();
+                }
             }
+
             break;
 
         default:
