@@ -54,7 +54,7 @@ router.post('/', function(req, res, next) {
             if (DEF.DEBUG) {
                 res.send({'CMD':req.body.cmd, 'REPORT': report, 'TRACE': trace});
             } else {
-                res.send({'POS X': pos_x, 'POS Y': pos_y, 'FACING': facing});
+                res.send({'RES': report});
             }  
             robot.robotResetTrace();          
             break;
@@ -78,7 +78,8 @@ router.post('/', function(req, res, next) {
                 if (robot.getInfo(robot.Robot_Info.ONTABLE)) {
                     res.send({'CMD':req.body.cmd, 'RES': 'OK'});
                 } else {
-                    res.send({'CMD':req.body.cmd, 'RES': 'ERROR'});
+                    //the server should discard the command
+                    // res.send({'CMD':req.body.cmd, 'RES': 'ERROR'});
                 }
                 
             }
@@ -86,8 +87,10 @@ router.post('/', function(req, res, next) {
             break;
 
         case RETURN_STATE.RETURN_ERROR:
-            res.send({'CMD':req.body.cmd, 'RES': 'ERROR'});
-            robot.robotResetTrace();
+            if (robot.getInfo(robot.Robot_Info.ONTABLE)) {
+                res.send({'CMD':req.body.cmd, 'RES': 'ERROR'});
+                robot.robotResetTrace();
+            }
             break;
 
         default:
